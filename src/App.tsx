@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight, Trophy, Building2, Users, CheckCircle2, Zap, Shield, Sun, X, Mail, Phone, User, MessageSquare } from "lucide-react";
 
@@ -161,7 +161,7 @@ function Hero({ onOpenModal }: { onOpenModal: () => void }) {
           >
             <div className="aspect-video bg-padel-charcoal rounded-xl border border-padel-slate-700 overflow-hidden relative group">
               <img 
-                src="input_file_1.png" 
+                src="/images/hero.png" 
                 alt="Padel Deutschland Tour 2026" 
                 className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -506,7 +506,7 @@ function MobileCourtSpecs() {
               className="relative aspect-square md:aspect-[4/5] bg-padel-charcoal border border-padel-slate-700 rounded-[3rem] overflow-hidden group"
             >
               <img 
-                src="input_file_2.png" 
+                src="/images/security.png" 
                 alt="Padel Sicherheit & Technik" 
                 className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -554,7 +554,7 @@ function CourtDimensions() {
               
               <div className="aspect-video relative rounded-2xl overflow-hidden mt-8 mb-6 shadow-2xl">
                 <img 
-                  src="input_file_0.png" 
+                  src="/images/court-dimensions.png" 
                   alt="Maße mobiler Padel Court" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
